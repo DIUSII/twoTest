@@ -1,17 +1,32 @@
-- var pageTitle = "Hello world"
-doctype html
+<!DOCTYPE html>
 html(lang="en")
-  head
-    title= pageTitle
-    script(type='text/javascript').
-        if (foo) bar(1 + 5)
-  body
-    h1 Pug - node template engine
-    #container.col
-      if youAreUsingPug
-        p You are amazing
-      else
-        p Get on it!
-      p.
-        Pug is a terse and simple templating language with a
-        strong focus on performance and powerful features.
+    head
+        meta(charset="UTF-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        title Document
+        link(rel="stylesheet", href="css/fonts.css")
+        link(rel="stylesheet", href="css/style.css")
+    body
+        header.fixed-container.flex-container.header-contain
+            .logo.flex-container
+                img(src="img/logo.png", alt="logo").logo__img
+                p.logo__text Т&#128711;WXIN         
+            .flex-container
+                nav
+                    ul.menu
+                        li.menu__item.color-dark-50 
+                            a(href="#") Home
+                        li.menu__item.color-dark-50 
+                            a(href="#") About Us
+                        li.menu__item.color-dark-50 
+                            a(href="#") Services
+                        li.menu__item.color-dark-50 
+                            a(href="#") Careers
+                        li.menu__item.color-dark-50 
+                            a(href="#") News
+                        li.menu__item.color-dark-50 
+                            a(href="#") Documentation
+                .button-cantian          
+                button.button-cantian__sign-in.btn-border LOGIN
+                button.button-cantian__sign-up.btn-gradient REGISTER
+                    

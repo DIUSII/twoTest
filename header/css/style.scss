@@ -1,7 +1,70 @@
-.h1 {
-	color: red;
-
-	&__span{
-		color: green;
+html, body{
+	margin:0;
+	font-family: 'Montserrat';
+}
+.color-dark-50{
+	font-size: 14px;
+	line-height: 17px;
+	color: rgba(31, 32, 65, 0.5);
+}
+.fixed-container{
+	max-width: 1160px;
+	margin: 0 auto;
+}
+.flex-container{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.btn-gradient{
+	border: none;
+	outline: none;
+	line-height: 15px;
+	color: #FFFFFF;
+	font-weight: bold;
+	font-size: 12px;
+	background: linear-gradient(180deg, #BC9CFF 0%, #8BA4F9 100%);
+	border-radius: 22px;
+	text-transform: uppercase;
+}
+.btn-border{
+	border:2px solid #BC9CFF;
+	outline: none;
+	color: #BC9CFF;
+	font-weight: bold;
+	font-size: 12px;
+	line-height: 15px;
+	border-radius: 22px;
+	background-color: transparent;
+}
+.header-contain{
+	margin-top: 10px;
+	padding: 8px 0px;
+}
+.logo{
+	&__text{
+		color: #1F2041;
 	}
+	&__img{
+		margin-right:13px;
+	}
+}
+.menu{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+
+	&__item{
+		margin-right:30px;
+		display: inline-block;
+	}
+}
+.button-cantian{
+	&__sign-in{
+		padding: 8px 18px;
+		margin-right:20px;
+	}
+	&__sign-up{
+		padding: 10px 20px;
+	}	
 }

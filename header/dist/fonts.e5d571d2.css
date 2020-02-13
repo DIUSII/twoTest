@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Montserrat Regular'), local('Montserrat-Regular'),
+         url('/montserrat-v14-latin_cyrillic-regular.ced97f2e.woff') format('woff'), 
+         url('/montserrat-v14-latin_cyrillic-regular.78310e7a.ttf') format('truetype'), 
+         url('/montserrat-v14-latin_cyrillic-regular.4734be6c.svg#Montserrat') format('svg'); /* Legacy iOS */
+  }
+
+/*# sourceMappingURL=/fonts.e5d571d2.css.map */
