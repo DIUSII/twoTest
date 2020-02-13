@@ -1,0 +1,8 @@
+{
+  "name": "twoTest",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/DIUSII/twoTest.git",
+  "author": "Никита Продиус <nikster.nikster@gmail.com>",
+  "license": "MIT"
+}
