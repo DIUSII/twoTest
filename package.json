@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "https://github.com/DIUSII/twoTest.git",
   "author": "Никита Продиус <nikster.nikster@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "pug": "^2.0.4"
+  }
 }
