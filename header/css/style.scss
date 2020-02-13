@@ -2,11 +2,7 @@ html, body{
 	margin:0;
 	font-family: 'Montserrat';
 }
-.color-dark-50{
-	font-size: 14px;
-	line-height: 17px;
-	color: rgba(31, 32, 65, 0.5);
-}
+
 .fixed-container{
 	max-width: 1160px;
 	margin: 0 auto;
@@ -55,8 +51,15 @@ html, body{
 	padding: 0;
 
 	&__item{
+		text-decoration: none;
 		margin-right:30px;
 		display: inline-block;
+	}
+	&__link{
+		text-decoration: none;
+		font-size: 14px;
+		line-height: 17px;
+		color: rgba(31, 32, 65, 0.5);
 	}
 }
 .button-cantian{
